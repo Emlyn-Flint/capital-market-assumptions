@@ -660,7 +660,6 @@ edition,asset_class_1,asset_1,asset_class_2,asset_2,institution,statistic,foreca
 2024,Alternative,Private Equity,,,PGIM,Standard Deviation,0.2255
 2024,Alternative,REITS,,,PGIM,Standard Deviation,0.1776
 2024,Cash,US Cash,,,PGIM,Return,0.0372
-2024,Cash,US Cash,,,PGIM,Standard Deviation,0
 2024,Equities,Developed Markets Ex US,,,PGIM,Return,0.0828
 2024,Equities,Emerging Markets,,,PGIM,Return,0.0893
 2024,Equities,Global,,,PGIM,Return,0.0713
@@ -6167,7 +6166,6 @@ edition,asset_class_1,asset_1,asset_class_2,asset_2,institution,statistic,foreca
 2025,Alternative,Private Equity,,,PGIM,Standard Deviation,0.2248
 2025,Alternative,REITS,,,PGIM,Standard Deviation,0.1773
 2025,Cash,US Cash,,,PGIM,Return,0.0332
-2025,Cash,US Cash,,,PGIM,Standard Deviation,0
 2025,Equities,Developed Markets Ex US,,,PGIM,Return,0.0827
 2025,Equities,Emerging Markets,,,PGIM,Return,0.0879
 2025,Equities,Global,,,PGIM,Return,0.0656
@@ -13695,7 +13693,6 @@ edition,asset_class_1,asset_1,asset_class_2,asset_2,institution,statistic,foreca
 2026,Alternative,Private Equity,,,PGIM,Standard Deviation,0.2247
 2026,Alternative,REITS,,,PGIM,Standard Deviation,0.1758
 2026,Cash,US Cash,,,PGIM,Return,0.0319
-2026,Cash,US Cash,,,PGIM,Standard Deviation,0
 2026,Equities,Developed Markets Ex US,,,PGIM,Return,0.0674
 2026,Equities,Emerging Markets,,,PGIM,Return,0.0752
 2026,Equities,Global,,,PGIM,Return,0.0578

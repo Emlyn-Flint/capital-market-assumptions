@@ -12,11 +12,11 @@ edition,asset_class,asset,statistic,median,mean,views,lowest,q25,q75,highest,cha
 2024,Alternative,REITS,Return,0.0688,0.0667824,17,0.0505,0.0603,0.072,0.086,
 2024,Alternative,REITS,Standard Deviation,0.187,0.185656,16,0.1605,0.17215,0.1932,0.2175,
 2024,Cash,Developed Markets Ex US Cash,Return,0.022,0.0240444,9,0.0143,0.0213,0.027,0.037,
-2024,Cash,Developed Markets Ex US Cash,Standard Deviation,0.05265,0.053425,4,0.01,0.028975,0.0771,0.0984,
+2024,Cash,Developed Markets Ex US Cash,Standard Deviation,0.02265,0.0356167,6,0,0.0025,0.061325,0.0984,
 2024,Cash,Emerging Markets Cash,Return,0.052,0.0498,3,0.039,0.0455,0.0552,0.0584,
-2024,Cash,Emerging Markets Cash,Standard Deviation,0.073,0.073,1,0.073,0.073,0.073,0.073,
+2024,Cash,Emerging Markets Cash,Standard Deviation,0.0365,0.0365,2,0,0.01825,0.05475,0.073,
 2024,Cash,US Cash,Return,0.0345,0.0347462,26,0.024,0.02925,0.039,0.05,
-2024,Cash,US Cash,Standard Deviation,0.0085,0.00932222,18,0.004,0.0053,0.010675,0.0225,
+2024,Cash,US Cash,Standard Deviation,0.00775,0.00839,20,0,0.005,0.010225,0.0225,
 2024,Equities,Developed Markets Ex US,Return,0.077,0.0756742,31,0.036,0.071,0.0825,0.094,
 2024,Equities,Developed Markets Ex US,Standard Deviation,0.1745,0.175821,24,0.1387,0.1676,0.18345,0.21,
 2024,Equities,Emerging Markets,Return,0.0834,0.0836767,30,0.034,0.077,0.093225,0.128,
@@ -84,11 +84,11 @@ edition,asset_class,asset,statistic,median,mean,views,lowest,q25,q75,highest,cha
 2025,Alternative,REITS,Return,0.0701,0.0664957,23,0.041,0.05925,0.0746,0.086,0.0013
 2025,Alternative,REITS,Standard Deviation,0.1815,0.18159,20,0.157,0.171125,0.189925,0.2175,-0.0055
 2025,Cash,Developed Markets Ex US Cash,Return,0.0256,0.0249167,12,0.0187,0.0222,0.0271,0.032,0.0036
-2025,Cash,Developed Markets Ex US Cash,Standard Deviation,0.0072,0.01978,5,0.005,0.0067,0.01,0.07,-0.04545
+2025,Cash,Developed Markets Ex US Cash,Standard Deviation,0.0067,0.0141286,7,0,0.0025,0.0086,0.07,-0.01595
 2025,Cash,Emerging Markets Cash,Return,0.052,0.0502667,3,0.0385,0.04525,0.05615,0.0603,0
-2025,Cash,Emerging Markets Cash,Standard Deviation,0.072,0.072,1,0.072,0.072,0.072,0.072,-0.001
+2025,Cash,Emerging Markets Cash,Standard Deviation,0.036,0.036,2,0,0.018,0.054,0.072,-0.0005
 2025,Cash,US Cash,Return,0.033,0.0340606,33,0.024,0.032,0.0368,0.0446,-0.0015
-2025,Cash,US Cash,Standard Deviation,0.0075,0.00889524,21,0.0025,0.006,0.01,0.025,-0.001
+2025,Cash,US Cash,Standard Deviation,0.00675,0.00778333,24,0,0.005375,0.01,0.025,-0.001
 2025,Equities,Developed Markets Ex US,Return,0.072,0.072959,39,0.036,0.067,0.08185,0.099,-0.005
 2025,Equities,Developed Markets Ex US,Standard Deviation,0.1745,0.171971,28,0.128,0.16275,0.1812,0.204,0
 2025,Equities,Emerging Markets,Return,0.081,0.0776359,39,0.021,0.06975,0.0898,0.11,-0.0024
@@ -156,11 +156,11 @@ edition,asset_class,asset,statistic,median,mean,views,lowest,q25,q75,highest,cha
 2026,Alternative,REITS,Return,0.0692,0.067652,25,0.044,0.0623,0.073,0.088,-0.0009
 2026,Alternative,REITS,Standard Deviation,0.179,0.181687,23,0.154,0.1705,0.19,0.25,-0.0025
 2026,Cash,Developed Markets Ex US Cash,Return,0.0257,0.0254667,15,0.0167,0.02225,0.0269,0.041,0.0001
-2026,Cash,Developed Markets Ex US Cash,Standard Deviation,0.007,0.0156429,7,0.0048,0.00585,0.0085,0.069,-0.0002
+2026,Cash,Developed Markets Ex US Cash,Standard Deviation,0.0067,0.0121667,9,0,0.0048,0.007,0.069,0
 2026,Cash,Emerging Markets Cash,Return,0.045,0.0461,3,0.0365,0.04075,0.0509,0.0568,-0.007
-2026,Cash,Emerging Markets Cash,Standard Deviation,0.065,0.065,2,0.06,0.0625,0.0675,0.07,-0.007
+2026,Cash,Emerging Markets Cash,Standard Deviation,0.06,0.0433333,3,0,0.03,0.065,0.07,0.024
 2026,Cash,US Cash,Return,0.033,0.0333171,41,0.026,0.0315,0.036,0.041,0
-2026,Cash,US Cash,Standard Deviation,0.00775,0.00911538,26,0.0024,0.006,0.010775,0.025,0.00025
+2026,Cash,US Cash,Standard Deviation,0.007,0.00817241,29,0,0.0057,0.0101,0.025,0.00025
 2026,Equities,Developed Markets Ex US,Return,0.0734,0.0708837,49,0.04,0.0645,0.0778,0.0975,0.0014
 2026,Equities,Developed Markets Ex US,Standard Deviation,0.171,0.170571,35,0.127,0.15845,0.1806,0.2287,-0.0035
 2026,Equities,Emerging Markets,Return,0.0751,0.0748521,48,0.036,0.0669,0.08125,0.128,-0.0059
