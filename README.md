@@ -56,3 +56,11 @@ All figures are taken from publicly available reports; the reports themselves be
 ## Scope
 
 The data is a collation of third-party views, provided for information and research. It is not investment advice, and Peresec does not endorse any individual forecast.
+
+## Licence
+
+The dataset and the files in this repository are released by Peresec under the [Creative Commons Attribution 4.0 International licence](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0): see `LICENSE`. You may copy, share and adapt the data, including commercially, provided you credit Peresec, link to the licence and say if you changed anything.
+
+The licence covers Peresec's compilation only. The underlying forecasts and the source reports remain the property of their publishers.
+
+Suggested credit: Peresec, *Long-Term Capital Market Assumptions 2026* (data for the 2024 to 2026 editions).
