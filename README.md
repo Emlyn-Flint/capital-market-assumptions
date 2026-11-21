@@ -6,13 +6,15 @@ This repository holds the data behind the Peresec *Long-Term Capital Market Assu
 
 ## What is in the data
 
-Each edition collects the expected return, standard deviation and, from 2025, correlation views that institutions publish in their capital market assumption reports. Every institution's own asset classes are mapped to 36 standard asset names in four classes (Equities, Fixed Income, Cash, Alternative).
+Each edition collects the expected return, standard deviation and correlation views that institutions publish in their capital market assumption reports. Every institution's own asset classes are mapped to 36 standard asset names in four classes (Equities, Fixed Income, Cash, Alternative).
 
 | Edition | Institutions | Return views | Standard deviation views | Correlation views |
 |---|---|---|---|---|
-| 2024 | 31 | 560 | 478 | none |
-| 2025 | 40 | 708 | 547 | 6,420 |
-| 2026 | 50 | 851 | 666 | 6,572 |
+| 2024 | 46 | 753 | 619 | 691 |
+| 2025 | 48 | 807 | 579 | 6,420 |
+| 2026 | 51 | 870 | 685 | 6,572 |
+
+The three editions were first compiled with 31, 40 and 50 institutions. In November 2026 further reports were located for institutions present in some editions but not others, adding 15 institutions to 2024, 8 to 2025 and 1 to 2026. Correlations for 2024 come from five of those institutions only, so no consensus correlation matrix is given for that edition.
 
 The intended basis for every return is a **10-year horizon in USD, as an annualised nominal geometric return**. Risk is the forecast annual standard deviation. Not every institution publishes on that basis: see below for more information, and `data/basis_by_institution.csv` for detail.
 
@@ -38,7 +40,7 @@ Where a report gives its own USD figure on this convention, that figure is used.
 ## How to read the figures
 
 - **Median as the headline.** The consensus for an asset is the median across the institutions that publish a view for it, so the number of views differs from asset to asset. Treat any figure resting on fewer than five views with care.
-- **Changes between editions** in `consensus_summary.csv` are the difference between the two editions' medians, each taken over every institution with a view that year. Coverage grew from 31 to 40 to 50 institutions, so a change reflects both revised views and changes in which institutions contribute.
+- **Changes between editions** in `consensus_summary.csv` are the difference between the two editions' medians, each taken over every institution with a view that year. Coverage grows from 46 to 48 to 51 institutions, so a change reflects both revised views and changes in which institutions contribute.
 - **Basis.** Each institution is marked as one of the following in `basis_by_institution.csv`:
   - *on basis*: published on the intended basis.
   - *converted*: Peresec converted the report's figures to the intended basis: arithmetic to geometric (arithmetic less half the variance), real to nominal (real plus inflation), or to the currency convention above.
