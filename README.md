@@ -63,4 +63,4 @@ The dataset and the files in this repository are released by Peresec under the [
 
 The licence covers Peresec's compilation only. The underlying forecasts and the source reports remain the property of their publishers.
 
-Suggested citation: Flint, E., Chikurunhe, C., & van Schaik, L. (2026), *Long-Term Capital Market Assumptions: Institutional Views, 2024 to 2026*, Peresec Research.
+Suggested citation: Flint, E., Chikurunhe, F., & van Schaik, L. (2026), *Long-Term Capital Market Assumptions: Institutional Views, 2024 to 2026*, Peresec Research.
