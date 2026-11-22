@@ -14,7 +14,7 @@ Each edition collects the expected return, standard deviation and correlation vi
 | 2025 | 48 | 807 | 579 | 6,420 |
 | 2026 | 51 | 870 | 685 | 6,572 |
 
-The three editions were first compiled with 31, 40 and 50 institutions. In November 2026 further reports were located for institutions present in some editions but not others, adding 15 institutions to 2024, 8 to 2025 and 1 to 2026. Correlations for 2024 come from five of those institutions only, so no consensus correlation matrix is given for that edition.
+Correlations for 2024 come from five institutions only, so no consensus correlation matrix is given for that edition.
 
 The intended basis for every return is a **10-year horizon in USD, as an annualised nominal geometric return**. Risk is the forecast annual standard deviation. Not every institution publishes on that basis: see below for more information, and `data/basis_by_institution.csv` for detail.
 
@@ -51,9 +51,9 @@ Where a report gives its own USD figure on this convention, that figure is used.
 - **Consensus correlation matrix.** Each cell is the median over the institutions that publish that pair, and every pair among the 11 core assets has at least five views. We have checked the 2025 and 2026 core matrices and both are valid correlation matrices (positive semi-definite), so they can be used as they stand. Matrices built in other ways from this data, for example over a wider set of assets or with weighted averages, may not be valid and would need adjusting before use in portfolio construction or risk management.
 - **Names.** BNY Mellon was renamed BNY Investments in 2026 and appears as BNY Mellon throughout.
 
-## Sources and checking
+## Sources
 
-All figures are taken from publicly available reports; the reports themselves belong to their publishers and are not reproduced here. The 2024 to 2026 data was checked value by value against the source reports in November 2026. The Vanguard 2025 views (28 rows) could not be re-checked: they come from a quarterly web page whose vintage we could not recover.
+All figures are taken from publicly available reports; the reports themselves belong to their publishers and are not reproduced here.
 
 ## Scope
 
