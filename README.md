@@ -12,7 +12,7 @@ Each edition collects the expected return, standard deviation and correlation vi
 |---|---|---|---|---|
 | 2024 | 46 | 753 | 619 | 691 |
 | 2025 | 48 | 807 | 579 | 6,420 |
-| 2026 | 51 | 870 | 685 | 6,572 |
+| 2026 | 51 | 870 | 685 | 6,933 |
 
 Correlations for 2024 come from five institutions only, so no consensus correlation matrix is given for that edition.
 
@@ -35,7 +35,7 @@ Where a report gives its own USD figure on this convention, that figure is used.
   Columns: `edition`, `asset_class_1`, `asset_1`, `asset_class_2`, `asset_2`, `institution`, `statistic` (`Return`, `Standard Deviation` or `Correlation`), `forecast` (a decimal: 0.065 is 6.5%). `asset_class_2` and `asset_2` are filled only for correlations, which are stored in both directions with the diagonal.
 - `data/basis_by_institution.csv`: for each institution and edition, the report title and date, horizon, currency, return basis, and where the views depart from the intended basis.
 - `data/consensus_summary.csv`: for each edition, asset and statistic, the median, mean, number of views, range and middle half, and the change in the median on the prior edition.
-- `data/consensus_correlation_core_2026.csv` and `..._2025.csv`: the consensus (median) correlation matrix for the 11 core assets, the building blocks of a global balanced fund: US Large Cap, Developed Markets Ex US, Emerging Markets, US Government, US Inv. Grade Corporate, US High Yield, US TIPS, Emerging Markets Govt (Hard), US Cash, REITS and Commodities.
+- `data/consensus_correlation_core_2026.csv` and `..._2025.csv`: the consensus (median) correlation matrix for the 11 core assets, adjusted where needed to be a valid correlation matrix, the building blocks of a global balanced fund: US Large Cap, Developed Markets Ex US, Emerging Markets, US Government, US Inv. Grade Corporate, US High Yield, US TIPS, Emerging Markets Govt (Hard), US Cash, REITS and Commodities.
 
 ## How to read the figures
 
@@ -48,7 +48,7 @@ Where a report gives its own USD figure on this convention, that figure is used.
   - *as published*: the report uses another horizon or currency and offers no means of converting, so the figures are used as they stand.
 - **Regional averages.** Some lines, mostly the "Developed Markets Ex US" assets, are simple averages of an institution's country or regional figures where it publishes no aggregate.
 - **Zero standard deviations.** BlackRock, Schroders and EFG publish a volatility of zero for cash, treating it as the risk-free asset. These are held as zero and counted as views in the consensus.
-- **Consensus correlation matrix.** Each cell is the median over the institutions that publish that pair, and every pair among the 11 core assets has at least five views. We have checked the 2025 and 2026 core matrices and both are valid correlation matrices (positive semi-definite), so they can be used as they stand. Matrices built in other ways from this data, for example over a wider set of assets or with weighted averages, may not be valid and would need adjusting before use in portfolio construction or risk management.
+- **Consensus correlation matrix.** Each cell is the median over the institutions that publish that pair, and every pair among the 11 core assets has at least five views. The 2025 core matrix is a valid correlation matrix (positive definite) as it stands. The 2026 median matrix falls marginally short (smallest eigenvalue -0.015), so the file gives the nearest valid matrix; no cell moves by more than 0.01. Matrices built in other ways from this data, for example over a wider set of assets or with weighted averages, may not be valid and would need adjusting before use in portfolio construction or risk management.
 - **Names.** BNY Mellon was renamed BNY Investments in 2026 and appears as BNY Mellon throughout.
 
 ## Sources

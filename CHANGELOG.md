@@ -12,4 +12,4 @@
   - Return basis recorded as geometric for BlackRock (2024 to 2026) and Meketa (2026).
   - PGIM cash volatility removed (2024 to 2026): the reports print no figure and the earlier data held 0. Zero cash volatilities that are published (BlackRock, Schroders, EFG) are kept and counted in the consensus.
 - The change on the prior edition in `consensus_summary.csv` is the difference between the two editions' all-institution medians.
-- The core correlation matrices cover 11 assets: the building blocks of a global balanced fund. Both are valid correlation matrices as they stand.
+- The core correlation matrices cover 11 assets: the building blocks of a global balanced fund. The 2025 matrix is valid as it stands; the 2026 matrix is adjusted slightly to the nearest valid matrix.
