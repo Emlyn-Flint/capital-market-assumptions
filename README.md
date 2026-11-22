@@ -2,7 +2,7 @@
 
 A collation of long-term asset class views published by global asset managers and consultants, compiled by Peresec.
 
-This repository holds the data behind the Peresec *Long-Term Capital Market Assumptions 2026* summary: the 2024, 2025 and 2026 editions.
+This repository holds the data behind the Peresec [*Long-Term Capital Market Assumptions* summary](https://www.peresec.com/insights/ltcma-summary/): the 2024, 2025 and 2026 editions.
 
 ## What is in the data
 
@@ -16,7 +16,7 @@ Each edition collects the expected return, standard deviation and correlation vi
 
 Correlations for 2024 come from five institutions only, so no consensus correlation matrix is given for that edition.
 
-The intended basis for every return is a **10-year horizon in USD, as an annualised nominal geometric return**. Risk is the forecast annual standard deviation. Not every institution publishes on that basis: see below for more information, and `data/basis_by_institution.csv` for detail.
+The intended CMA basis for every return is a **10-year horizon in USD, as an annualised nominal geometric return**. Risk is the forecast annual standard deviation. Not every institution publishes on that basis: see below for more information, and `data/basis_by_institution.csv` for detail.
 
 ### Currency convention
 
@@ -33,7 +33,7 @@ Where a report gives its own USD figure on this convention, that figure is used.
 
 - `data/cma_2024_2026.csv`: the full dataset, one row per view.
   Columns: `edition`, `asset_class_1`, `asset_1`, `asset_class_2`, `asset_2`, `institution`, `statistic` (`Return`, `Standard Deviation` or `Correlation`), `forecast` (a decimal: 0.065 is 6.5%). `asset_class_2` and `asset_2` are filled only for correlations, which are stored in both directions with the diagonal.
-- `data/basis_by_institution.csv`: for each institution and edition, the report title and date, horizon, currency, return basis, and where the views depart from the intended basis.
+- `data/basis_by_institution.csv`: for each institution and edition, the report title and date, horizon, currency, return basis, and where the views depart from the intended CMA basis.
 - `data/consensus_summary.csv`: for each edition, asset and statistic, the median, mean, number of views, range and middle half, and the change in the median on the prior edition.
 - `data/consensus_correlation_core_2026.csv` and `..._2025.csv`: the consensus (median) correlation matrix for the 11 core assets, adjusted where needed to be a valid correlation matrix, the building blocks of a global balanced fund: US Large Cap, Developed Markets Ex US, Emerging Markets, US Government, US Inv. Grade Corporate, US High Yield, US TIPS, Emerging Markets Govt (Hard), US Cash, REITS and Commodities.
 
@@ -41,9 +41,9 @@ Where a report gives its own USD figure on this convention, that figure is used.
 
 - **Median as the headline.** The consensus for an asset is the median across the institutions that publish a view for it, so the number of views differs from asset to asset. Treat any figure resting on fewer than five views with care.
 - **Changes between editions** in `consensus_summary.csv` are the difference between the two editions' medians, each taken over every institution with a view that year. Coverage grows from 46 to 48 to 51 institutions, so a change reflects both revised views and changes in which institutions contribute.
-- **Basis.** Each institution is marked as one of the following in `basis_by_institution.csv`:
-  - *on basis*: published on the intended basis.
-  - *converted*: Peresec converted the report's figures to the intended basis: arithmetic to geometric (arithmetic less half the variance), real to nominal (real plus inflation), or to the currency convention above.
+- **CMA basis.** Each institution is marked as one of the following in `basis_by_institution.csv`:
+  - *on basis*: published on the intended CMA basis.
+  - *converted*: Peresec converted the report's figures to the intended CMA basis: arithmetic to geometric (arithmetic less half the variance), real to nominal (real plus inflation), or to the currency convention above.
   - *basis not stated*: the report does not say whether its returns are geometric or arithmetic; the figures are used as they stand.
   - *as published*: the report uses another horizon or currency and offers no means of converting, so the figures are used as they stand.
 - **Regional averages.** Some lines, mostly the "Developed Markets Ex US" assets, are simple averages of an institution's country or regional figures where it publishes no aggregate.
