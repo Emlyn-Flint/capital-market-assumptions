@@ -11,7 +11,7 @@ Each edition collects the expected return, standard deviation and correlation vi
 | Edition | Institutions | Return views | Standard deviation views | Correlation views |
 |---|---|---|---|---|
 | 2024 | 46 | 753 | 619 | 691 |
-| 2025 | 48 | 807 | 579 | 6,420 |
+| 2025 | 48 | 807 | 579 | 6,455 |
 | 2026 | 51 | 870 | 685 | 6,933 |
 
 Correlations for 2024 come from five institutions only, so no consensus correlation matrix is given for that edition.
@@ -27,7 +27,7 @@ Returns are shown from the point of view of a USD investor:
 - **Developed Markets Ex US Cash** is the local-currency cash rate, not a USD return.
 - **Alternatives** are in USD as published.
 
-Where a report gives its own USD figure on this convention, that figure is used. Where it gives only a local-currency or differently hedged figure, Peresec converted it by interest-rate parity: USD return = published return + (USD cash rate - local cash rate), applied to each country or regional component before averaging, using the cash rates in the same report. Reports with no usable cash rates are left as published and marked as such.
+Where a report gives its own USD figure on this convention, that figure is used. Where it gives only a local-currency or differently hedged figure, Peresec converted it by interest-rate parity: USD return = published return + (USD cash rate - local cash rate), applied to each country or regional component before averaging, using the cash rates in the same report. Reports with no usable cash rates are left as published and marked as such. Only returns are converted. Volatilities and correlations are as published, so for converted lines they reflect local-currency risk.
 
 ## Files
 

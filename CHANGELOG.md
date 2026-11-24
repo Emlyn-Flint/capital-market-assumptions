@@ -13,3 +13,10 @@
   - PGIM cash volatility removed (2024 to 2026): the reports print no figure and the earlier data held 0. Zero cash volatilities that are published (BlackRock, Schroders, EFG) are kept and counted in the consensus.
 - The change on the prior edition in `consensus_summary.csv` is the difference between the two editions' all-institution medians.
 - The core correlation matrices cover 11 assets: the building blocks of a global balanced fund. The 2025 matrix is valid as it stands; the 2026 matrix is adjusted slightly to the nearest valid matrix.
+
+## Correction (24 November 2026)
+
+- Inspire 2025: the correlation matrix was incomplete. 10 pairs were held in one direction only, and another 10 pairs and 5 unit diagonals were missing; all are added from the report, so the 7-asset matrix is now complete.
+- `consensus_correlation_core_2025.csv`: each cell is now the median across institutions, counting each institution once per pair. Two cells change (Developed Markets Ex US with US Cash and with US Large Cap).
+- `basis_by_institution.csv`: the State Street note wrongly said its cash was converted to USD; its non-US assets, including ex-US cash, are in local currency.
+- The currency notes now state that only returns are converted; volatilities and correlations are as published.
